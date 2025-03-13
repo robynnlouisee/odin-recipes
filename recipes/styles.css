@@ -40,5 +40,26 @@ width: 350px;
     h2 {
         text-align: center;
     }
+    .chocolate {
+       background-color: lightblue; 
+    }
+    .mango {
+        background-color: lightseagreen;
+    }
+    .victoria {
+        background-color: mistyrose;
+    }
+    .cake1 {
+        padding: 20px;
+        background-color: lightblue;
+    }
+    .cake2 {
+        padding: 20px;
+        background-color: lightseagreen;
+    }
+    .cake3 {
+        padding: 20px;
+        background-color: mistyrose;
+    }
 
    
