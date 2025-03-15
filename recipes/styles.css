@@ -20,7 +20,7 @@ ul, ol {
     }
 
     ul {
-width: 350px;
+       width: 350px;
     }
 
     ol {
@@ -33,7 +33,7 @@ width: 350px;
     }
 
     button {
-     background-color: white;
+       background-color: white;
      
     }
 
