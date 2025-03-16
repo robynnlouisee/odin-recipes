@@ -41,8 +41,9 @@
             text-align: center;
             font-size: 20px;
             align-items: center;
-            width: 1000px;
+            width: 80%;
             margin: 0 auto;
+            justify-content: center;
         }
 
         .line-container::before, .line-container::after {
@@ -54,15 +55,27 @@
         }
         img {
             display: flex;
-            width:350px;
+            width: 350px;
             height: 500px;
-            padding: 20px;
-            
+            max-width: 100%   
         }
 
         .images {
             display: flex;
             align-items: center;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            align-items: center;
+        }
+        .description {
+            font-family: sans-serif; 
+            text-align: center;
         }
     </style>
 </head>
@@ -70,7 +83,7 @@
 <body>
     
     <h1>Odin Recipes
-    <div class=container><a href="recipes/chocolate-cake.html">Chocolate Cake</a></li>
+    <div class=container><a href="recipes/chocolate-cake.html">Chocolate Cake</a>
         <a href="recipes/mango-sticky-rice.html">Mango Sticky Rice</a>
         <a href="recipes/victoria-sponge.html">Victoria Sponge</a>
         </div>
